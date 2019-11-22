@@ -1,0 +1,226 @@
+﻿{
+  "app-name": "任务/FATE 助手 - DFA",
+
+  "tts-langset": "zh",
+
+  "unknown-instance": "未知任务 ({0})",
+  "unknown-roulette": "未知随机任务 ({0})",
+  "unknown-area": "未知地区 ({0})",
+  "unknown-fate": "未知FATE ({0})",
+
+
+  "notification-app-updated": "已更新至版本 {0} ",
+  "notification-queue-matched": "< {0} > 匹配完成！",
+  "notification-update-enabled": "可更新至新版本 {0}",
+  "notification-uptodate": "正在更新至版本 {0}",
+  "notification-update-latest": "更新检查完成，暂无更新",
+  "notification-dll-missing": "缺失组件[{0}]，正在联网获取",
+  "notification-dll-invalid": "由于依赖组件[{0}]是无效的，[{1}]功能已禁用",
+
+
+  "tweet-fate-occured": "FATE < {0} > 出现！",
+  "tweet-queue-matched": "匹配到 < {0} >",
+
+
+  "fate-preset-animus-SkyfireI": "炎天一卷",
+  "fate-preset-animus-SkyfireII": "炎天二卷",
+  "fate-preset-animus-NetherfireI": "炎狱一卷",
+  "fate-preset-animus-SkyfallI": "水天一卷",
+  "fate-preset-animus-SkyfallII": "水天二卷",
+  "fate-preset-animus-NetherfallI": "水狱一卷",
+  "fate-preset-animus-SkywindI": "风天一卷",
+  "fate-preset-animus-SkywindII": "风天二卷",
+  "fate-preset-animus-SkyearthI": "土天一卷",
+  "fate-preset-Ixion": "伊克西翁",
+  "fate-preset-Tamamo": "玉藻御前",
+
+
+  "ui-notifymenustrip-open": "显示主窗体",
+  "ui-notifymenustrip-close": "退出DFA",
+
+  "ui-topsetting-process": "FFXIV进程",
+  "ui-topsetting-select": "手动选择",
+  "ui-topsetting-reset": "重置",
+
+  "ui-tabcontrol-settings": "设置",
+  "ui-tabcontrol-fate": "FATE",
+  "ui-tabcontrol-logs": "日志",
+  "ui-tabcontrol-info": "关于",
+  "ui-tabcontrol-dev": "开发者选项",
+
+  "ui-settings-title": "基础设置",
+  "ui-settings-debug": "调试选项",
+  "ui-settings-network": "网络选项",
+  "ui-settings-overlay-use": "使用悬浮窗",
+  "ui-settings-overlay-tooltip": "拖拽悬浮窗左侧色条以改变位置。",
+  "ui-settings-overlay-reset": "重置",
+  "ui-settings-startupshow": "在DFA启动时显示主窗体",
+  "ui-settings-autohide": "无数据时自动隐藏悬浮窗",
+  "ui-settings-iconflash": "当匹配到任务/FATE时让FFXIV图标闪烁",
+  "ui-settings-cheatroulette": "随机任务匹配时显示实际匹配到的任务信息",
+  "ui-settings-heartbeatlock": "当玩家在30分钟内没有进行任何操作时，将不会自动被系统登出游戏",
+  "ui-settings-roulettetips": "通过随机任务匹配进入副本时显示简易副本攻略（如果支持）",
+  "ui-settings-playsound": "播放声音提醒",
+  "ui-settings-soundlocation": "选择文件",
+  "ui-settings-soundlocation-stop": "停止播放",
+  "ui-settings-tts": "使用TTS提醒",
+  "ui-settings-tts-title": "TTS设置",
+  "ui-settings-tts-speed": "朗读速度",
+  "ui-settings-tts-vol": "朗读音量",
+  "ui-settings-tts-cache": "缓存策略",
+  "ui-settings-tts-test": "朗读测试",
+  "ui-settings-tts-cache-clear": "清空缓存",
+  "ui-settings-tts-cache-use": "使用缓存，并在合适的时候更新缓存",
+  "ui-settings-tts-cache-force": "始终使用缓存，不管是否需要更新",
+  "ui-settings-tts-cache-nouse": "强制更新缓存，每次朗读都重新生成缓存（不推荐）",
+  "ui-settings-advanced-title": "高级功能",
+  "ui-settings-debuglog": "在日志中输出额外的Debug信息",
+  "ui-settings-netfilter": "过滤网络连接（屏蔽第三方工具的互相影响）",
+  "ui-settings-tweet-title": "Twitter提醒",
+  "ui-settings-tweet-activate": "启用",
+  "ui-settings-tweet-about": "当匹配到任务/FATE时，\n发送一条推文提醒指定推特账户。\n输入不含@符号的推特账户名。",
+  
+  "ui-settings-update": "更新选项",
+  "ui-settings-update-about": "当DFA主程序有更新时",
+  "ui-settings-update-setting-auto": "自动更新（推荐）",
+  "ui-settings-update-setting-notification": "提醒我",
+  "ui-settings-update-setting-no": "什么都不做",
+  "ui-settings-update-data-about": "当 任务/FATE数据 有更新时",
+  "ui-settings-update-data-setting-auto": "使用服务器数据（推荐）",
+  "ui-settings-update-data-setting-no": "使用本地数据（脱机）",
+  "ui-settings-update-manual": "手动更新",
+  "ui-settings-update-check-beta": "接受Beta版本推送",
+  
+  "ui-settings-tracker": "优雷卡追踪器",
+  "ui-settings-tracker-enabled": "启用优雷卡追踪器",
+  "ui-settings-tracker-open": "打开追踪器",
+  "ui-settings-tracker-auto": "进入禁地优雷卡区域时自动记录追踪器",
+  "ui-settings-tracker-mirror-cn": "使用国内镜像加速访问",
+
+  "tracker-title": "DFA：优雷卡追踪器",
+  "tracker-new-tracker": "新建追踪器",
+  "tracker-anemos": "常风之地",
+  "tracker-pagos": "恒冰之地",
+  "tracker-pyros": "涌火之地",
+  "tracker-hydatos": "喷水之地",
+  
+  "ui-new-tracker-error": "新建追踪器时发生了错误，请稍后重试。",
+
+  "ui-fate-selectall": "选择全部",
+  "ui-fate-unselectall": "取消选择",
+  "ui-fate-preset": "使用预设",
+  "ui-fate-apply": "应用设置",
+  "ui-fate-about": "选择内容来接收通知，然后点击应用设置按钮。\n注意：只有当角色处于FATE刷新的地图上才能接收到通知。",
+
+  "ui-logs-copy": "复制日志",
+  "ui-logs-clear": "清空",
+
+  "ui-info-about": "[中文支持]\n东方呆萌同人社团工作室 © 2018\n<中国区>呆萌@红玉海\n[Contributor]\n유채색 Laiglinne Hibiyasleep Alex00728\n[Support] : fpdhs698\n[Copyright]\nAll company, product, system names are\n registered or unregistered trademarks of their respective owners.\n(C)2010 - 2018 SQUARE ENIX CO., LTD All Rights Reserved.\nKorea Published by EYEDENTITY Entertainment.",
+
+  "ui-msgbox-title-info": "任务/FATE助手 - DFA 通知",
+  "ui-msgbox-title-warning": "任务/FATE助手 - DFA 警告",
+  "ui-msgbox-title-error": "任务/FATE助手 - DFA 错误",
+
+  "ui-language-changed": "DFA的语言设置已修改为简体中文，\n但有些部分需要应用程序重新启动才能生效。\n请重启DFA程序。",
+
+  "ui-clipboard-copied": "已复制到剪切板。",
+
+  "ui-cheat-roulette-confirm": "默认情况下禁用此功能以防止滥用。\n请不要故意拒绝不喜欢的任务。\n是否仍然要启用它？",
+  "ui-cheat-roulette-enabled": "已启用。\n请不要故意拒绝不喜欢的任务。",
+  
+  "ui-heart-beat-lock-confirm": "该功能处于测试阶段。\n此功能通过发送极少数人正常使用的F24按键到游戏中产生HeartBeat防止被游戏踢下线。\n如果启用后您无法正常使用键位设置功能，请关闭它。",
+  "ui-heart-beat-lock-enabled": "已启用。\n如果启用后您无法正常使用键位设置功能，请关闭它。",
+
+  "ui-clear-log-confirm": "确认要清空日志吗？",
+
+  "ui-fate-selection-saved": "FATE提醒已设置。",
+  "ui-fate-preset-applied": "已应用FATE预设内容。",
+
+  "ui-updating": "应用程序正在更新...\n{0}",
+
+  "ui-app-crashed": "哦豁，应用程序崩溃了。\n\nError: {0}",
+
+
+  "overlay-waiting-connection": "等待客户端连接信息",
+  "overlay-not-queuing": "没有正在等待的匹配",
+  "overlay-duty-count-unknown": "任务匹配中...",
+  "overlay-duty-count": "正在匹配 {0} 个任务...",
+  "overlay-queue-waiting-party": "队伍信息：{0} / {1} / {2}",
+  "overlay-queue-waiting": "正在获取信息...",
+  "overlay-queue-order": "职能等待顺序：{0}",
+  "overlay-roulette": "随机任务",
+  "overlay-queue-waiting-confirm": "等待你的确认",
+  "overlay-queue-matched": "匹配完成！",
+  "overlay-queue-confirming": "等待队伍确认",
+  "overlay-fate-occured": "FATE出现！",
+
+
+  "l-process-set-success": "进程：已选择 FFXIV 进程：{0}",
+  "l-process-set-failed": "进程：FFXIV 进程设置失败。",
+  "l-process-finding": "进程：正在寻找 FFXIV 进程...",
+  "l-process-found-nothing": "进程：找不到 FFXIV 进程。",
+  "l-process-found-multiple": "进程：有两个或更多的 FFXIV 进程正在运行中。",
+
+  "l-tweet-failed-request": "推特：请求Tweet服务时发生错误。",
+  "l-tweet-failed-general": "推特：推文发送失败。",
+  "l-tweet-success": "推特：推文已发送！",
+
+  "l-web-request-failed": "Web：请求网络服务时发生错误",
+
+  "l-updater-current-version": "更新检查：当前DFA版本：{0}",
+  "l-updater-latest-version": "更新检查：最新DFA版本：{0}",
+  "l-updater-is-latest": "更新检查：已使用最新版本DFA。",
+  "l-updater-new-version": "更新检查：当前有更新可用。",
+  "l-updater-error-general": "更新检查：更新时发生错误",
+  "l-updater-error-data": "更新检查：更新任务/FATE数据时发生错误",
+  "l-updater-error-check": "更新检查：找不到更新信息。",
+  "l-updater-error-no-url": "更新检查：找不到更新文件。",
+  "l-updater-error-downloading": "更新检查：获取更新数据时发生错误。",
+
+  "l-data-updated": "DFA：任务/FATE数据已更新至 版本.{0}.",
+  "l-data-is-latest": "DFA：正在使用最新的 任务/FATE数据 (Version {0}).",
+  "l-data-error": "DFA：处理任务/FATE数据时发生了错误。",
+
+  "l-packet-error-ip": "解包：IP数据包解析错误",
+  "l-packet-error-tcp": "解包：TCP数据包解析错误",
+
+  "l-memory-started": "内存：内存读取器初始化完成",
+  "l-memory-starting": "内存：初始化内存读取器...",
+  "l-memory-error-starting": "内存：内存读取器初始化失败",
+
+  "l-network-started": "网络：开始读取网络数据包",
+  "l-network-starting": "网络：启动网络读取...",
+  "l-network-stopped": "网络：已停止网络读取",
+  "l-network-stopping": "网络：正在请求停止网络读取...",
+  "l-network-error-starting": "网络：启动失败",
+  "l-network-error-stopping": "网络：停止失败",
+  "l-network-error-already-started": "网络：已启动",
+  "l-network-error-already-stopped": "网络：已停止",
+  "l-network-error-no-connection": "网络：找不到游戏服务器连接",
+  "l-network-error-receiving-packet": "网络：接收网络包时发生错误",
+  "l-network-error-filtering-packet": "网络：过滤网络包时发生错误",
+  "l-network-error-finding-lobby": "网络：获取大厅服务器信息失败",
+  "l-network-detected-connection-closing": "网络：侦测到游戏服务器断开",
+  "l-network-detected-connection": "网络：发现游戏服务器连接：{0}",
+
+  "l-soundhelper-error-general":"声音：Sound_Helper类发生错误",
+
+  "l-firewall-registered": "防火墙：已注册，如果启动后长时间无数据显示，请手动访问控制面板“允许应用通过 Windows 防火墙”，赋予本程序防火墙[专用]权限。",
+  "l-firewall-error": "防火墙：注册时发生错误",
+
+  "l-analyze-error-length": "分析：分析消息时长度不正确：{0}, {1}/{2}",
+  "l-analyze-error-general": "分析：分析消息时发生错误",
+  "l-analyze-error": "分析：处理消息时发生错误",
+
+  "l-queue-started-general": "队列：已开始匹配 [{0}]",
+  "l-queue-started-roulette": "队列：已开始随机任务匹配 [{0}]",
+  "l-queue-stopped": "队列：匹配取消",
+  "l-queue-entered": "队列：进入副本区域",
+  "l-queue-matched": "队列：匹配 [{0}]",
+  "l-queue-updated": "队列：匹配状态更新 [{0}, {1}, {2}/{3}, {4}/{5}, {6}/{7}]",
+
+  "l-fate-occured-info": "FATE: {0} FATE出现！",
+
+  "l-field-instance-entered": "副本：进入副本区域 [{0}]",
+  "l-field-instance-left": "副本：离开副本区域"
+}

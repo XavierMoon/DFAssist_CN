@@ -1,0 +1,213 @@
+﻿{
+  "app-name": "Notificateur Mission/ALEA",
+  
+  "tts-langset": "fra",
+
+  "unknown-instance": "Mission inconnue ({0})",
+  "unknown-roulette": "Mission aléatoire inconnue ({0})",
+  "unknown-area": "Zone inconnue ({0})",
+  "unknown-fate": "ALEA inconnu ({0})",
+
+
+  "notification-app-updated": "Mise à jour version {0}",
+  "notification-queue-matched": "< {0} > disponible!",
+  "notification-update-enabled": "mises à la {0}",
+  "notification-uptodate": "la mise à jour de la {0}",
+  "notification-update-latest": "Vous utilisez la dernière version",
+  "notification-dll-missing": "Missing components[{0}],downloading",
+  "notification-dll-invalid": "Invalid component[{0}],[{1}] disabled",
+
+
+  "tweet-fate-occured": "ALEA < {0} > en cours!",
+  "tweet-queue-matched": "< {0} > disponible!",
+
+
+  "fate-preset-animus-SkyfireI": "Book of Skyfire I",
+  "fate-preset-animus-SkyfireII": "Book of Skyfire II",
+  "fate-preset-animus-NetherfireI": "Book of Netherfire I",
+  "fate-preset-animus-SkyfallI": "Book of Skyfall I",
+  "fate-preset-animus-SkyfallII": "Book of Skyfall II",
+  "fate-preset-animus-NetherfallI": "Book of Netherfall I",
+  "fate-preset-animus-SkywindI": "Book of Skywind I",
+  "fate-preset-animus-SkywindII": "Book of Skywind II",
+  "fate-preset-animus-SkyearthI": "Book of Skyearth I",
+  "fate-preset-Ixion": "Ixion",
+  "fate-preset-Tamamo": "Tamamo",
+
+
+  "ui-notifymenustrip-open": "Ouvrir",
+  "ui-notifymenustrip-close": "Quitter",
+
+  "ui-topsetting-process": "Processus FFXIV",
+  "ui-topsetting-select": "Manuel",
+  "ui-topsetting-reset": "Rétablir",
+
+  "ui-tabcontrol-settings": "Paramètres",
+  "ui-tabcontrol-fate": "ALEA",
+  "ui-tabcontrol-logs": "Logs",
+  "ui-tabcontrol-info": "Infos",
+  "ui-tabcontrol-dev": "Le mode développeur",
+
+  "ui-settings-title": "Paramètres de base",
+  "ui-settings-debug": "Options de débogage",
+  "ui-settings-network": "Network",
+  "ui-settings-overlay-use": "Utiliser l'overlay",
+  "ui-settings-overlay-tooltip": "Bouger l'overlay avec la barre gauche",
+  "ui-settings-overlay-reset": "Rétablir",
+  "ui-settings-startupshow": "Afficher la fenêtre principale au démarrage",
+  "ui-settings-autohide": "Cacher automatiquement l'overlay pendant les missions",
+  "ui-settings-iconflash": "Faire clignorer l'icône de FFXIV en cas d'ALEA/Mission",
+  "ui-settings-cheatroulette": "Montrer la mission en cours d'attente lors des missions aléatoires",
+  "ui-settings-roulettetips": "Show Duty Tips when entered instance area by using Duty Roulette (If supported)",
+  "ui-settings-playsound": "Jouer le son",
+  "ui-settings-soundlocation": "Sélectionnez le fichier",
+  "ui-settings-tts": "Text-to-speech",
+  "ui-settings-tts-title": "TTS Setting",
+  "ui-settings-tts-speed": "Speak Speed",
+  "ui-settings-tts-cache": "TTS Cache",
+  "ui-settings-tts-test": "Speak Test",
+  "ui-settings-tts-cache-clear": "Clear TTS Cache",
+  "ui-settings-tts-cache-use": "Using cache and update the cache when needed",
+  "ui-settings-tts-cache-force": "Force the cache as long as the cache exists",
+  "ui-settings-tts-cache-nouse": "Force update cache every time (Not recommended)",
+  "ui-settings-debuglog": "Afficher le journal de débogage",
+  "ui-settings-netfilter": "Filter local network connections",
+  "ui-settings-tweet-title": "Rappel Twiter",
+  "ui-settings-tweet-activate": "Activer",
+  "ui-settings-tweet-about": "Lorsqu'un ALEA choisi se produir, \nenvoyer un tweet avec mention au compte sélectionné.\nEntrez le nom du compte Twitter sans @.",
+
+  "ui-settings-update": "mettre à jour la mise",
+  "ui-settings-update-about": "lorsqu'il existe une version app update...",
+  "ui-settings-update-setting-auto": "mise à jour automatique.",
+  "ui-settings-update-setting-notification": "m'envoyer une notification.",
+  "ui-settings-update-setting-no": "Ne rien faire ",
+  "ui-settings-update-data-about": "lorsque la mise à jour des données il existe une version...",
+  "ui-settings-update-data-setting-auto": "en utilisant des données du serveur.",
+  "ui-settings-update-data-setting-no": "en utilisant des données locales.",
+  "ui-settings-update-manual": "mise à jour du guide",
+  "ui-settings-update-check-beta": "Check Beta version update",
+  
+  "ui-settings-tracker": "Eureka-Tracker",
+  "ui-settings-tracker-enabled": "Enable Eureka-Tracker",
+  "ui-settings-tracker-open": "Open Tracker",
+  "ui-settings-tracker-auto": "Auto Tracker when in Eureka",
+  "ui-settings-tracker-mirror-cn": "Use CN mirror",
+
+  "tracker-title": "DFAssist-Eureka-Tracker",
+  "tracker-new-tracker": "New Tracker",
+  "tracker-anemos": "Anemos",
+  "tracker-pagos": "Pagos",
+  "tracker-pyros": "Pyros",
+  "tracker-hydatos": "Hydatos",
+  
+  "ui-new-tracker-error": "An error occurred while creating a new tracker. Please try again later.",
+
+  "ui-fate-selectall": "Selectionner tout",
+  "ui-fate-unselectall": "Déselectionner tout",
+  "ui-fate-preset": "Preselections",
+  "ui-fate-apply": "Appliquer",
+  "ui-fate-about": "Sélectionnez pour recevoir les notifications, puis appuyez sur Appliquer.\nL'alerte marche uniquement lorsque le joueur est dans la zone de l'ALEA.",
+
+  "ui-logs-copy": "Copier logs",
+  "ui-logs-clear": "Vider",
+
+  "ui-info-about": "[Contributor]\n유채색\nLaiglinne\nHibiyasleep\nAlex00728\n\n[Copyright]\nAll company, product, system names are\n registered or unregistered trademarks of their respective owners.\n(C)2010 - 2018 SQUARE ENIX CO., LTD All Rights Reserved.\nKorea Published by EYEDENTITY Entertainment.",
+
+  "ui-msgbox-title-info": "DFA Notice",
+  "ui-msgbox-title-warning": "DFA Warning",
+  "ui-msgbox-title-error": "DFA Error",
+
+  "ui-language-changed": "Langue changée en Français.\nUn redémarrage est nécessaire.\nVeuillez redémarrer l'application.",
+
+  "ui-clipboard-copied": "Copié dans le presse-papiers.",
+
+  "ui-cheat-roulette-confirm": "Cette fonction est désactivée par défaut pour éviter les abus.\nVeuillez vous abstenir de rejeter délibérément un devoir spécifique mission.\n\nVoulez-vous toujours l'activer?",
+  "ui-cheat-roulette-enabled": "Activée.\nS'il vous plaît, ne rejetez pas délibérément un devoir spécifique mission.",
+
+  "ui-clear-log-confirm": "Vider les logs?",
+
+  "ui-fate-selection-saved": "Notifications d'ALEA appliquées.",
+  "ui-fate-preset-applied": "Préselection d'ALEAs appliquée.",
+
+  "ui-updating": "Mise à jour du programme...\n{0}",
+
+  "ui-app-crashed": "L'application a été fermée suite à une erreur inconnue.\n\nErreur: {0}",
+
+
+  "overlay-waiting-connection": "En attente de connection au client",
+  "overlay-not-queuing": "Aucune file d'attente",
+  "overlay-duty-count-unknown": "Mission trouvée",
+  "overlay-duty-count": "{0} Mission trouvée",
+  "overlay-queue-waiting-party": "Mission en équipe: {0} / {1} / {2}",
+  "overlay-queue-waiting": "Obtention des informations...",
+  "overlay-queue-order": "Ordre d'attente: {0}",
+  "overlay-roulette": "Mission aléatoire",
+  "overlay-queue-waiting-confirm": "En attente d'acceptation",
+  "overlay-queue-matched": "Mission trouvée!",
+  "overlay-queue-confirming": "En attente d'acceptation",
+  "overlay-fate-occured": "ALEA trouvé!",
+
+
+  "l-process-set-success": "P: Processus FFXIV sélectionné: {0}",
+  "l-process-set-failed": "P: Impossible de sélectionner le processus FFXIV.",
+  "l-process-finding": "P: Recherche du processus FFXIV...",
+  "l-process-found-nothing": "P: Impossible de trouver le processus FFXIV.",
+  "l-process-found-multiple": "P: 2 ou plus processus FFXIV sont en cours.",
+
+  "l-tweet-failed-request": "T: Une erreur s'est produite lors de la requête du tweet",
+  "l-tweet-failed-general": "T: Impossible d'envoyer le tweet",
+  "l-tweet-success": "T: Tweet envoyé!",
+
+  "l-web-request-failed": "W: Erreur de requête web",
+
+  "l-updater-current-version": "U: Version actuelle: {0}",
+  "l-updater-latest-version": "U: Dernière version: {0}",
+  "l-updater-is-latest": "U: Vous utilisez la dernière version.",
+  "l-updater-new-version": "U: Mise à jour trouvée.",
+  "l-updater-error-general": "U: Erreur lors de la mise à jour des données",
+  "l-updater-error-data": "U: Erreur lors de la mise à jour M/A",
+  "l-updater-error-check": "U: Impossible de trouver les informations de mise à jour.",
+  "l-updater-error-no-url": "U: Impossible de trouver le fichier de mise à jour.",
+  "l-updater-error-downloading": "U: Erreur de téléchargement",
+
+  "l-data-updated": "D: Données M/A mises à jour à la version {0}.",
+  "l-data-is-latest": "D: Données M/A à jour (Version {0}).",
+  "l-data-error": "D: Erreur lors du traitement des données M/A",
+
+  "l-packet-error-ip": "P: Erreur de récupération des paquets IP",
+  "l-packet-error-tcp": "P: Erreur de récupération des paquets TCP",
+
+  "l-network-started": "N: Début de lecture des paquets réseau",
+  "l-network-starting": "N: Début de scan du réseau...",
+  "l-network-stopped": "N: Scan réseau interrompu",
+  "l-network-stopping": "N: Interruption du scan réseau en cours...",
+  "l-network-error-starting": "N: Erreur lors du démarrage",
+  "l-network-error-stopping": "N: Erreur lors de l'arrêt",
+  "l-network-error-already-started": "N: Déjà démarré",
+  "l-network-error-already-stopped": "N: Déjà arrêté",
+  "l-network-error-no-connection": "N: Impossible de trouver une connection au serveur de jeu",
+  "l-network-error-receiving-packet": "N: Erreur lors de la réception de paquets",
+  "l-network-error-filtering-packet": "N: Erreur lors du filtrage des paquets",
+  "l-network-error-finding-lobby": "N: Erreur à la réception des paquets d'instance",
+  "l-network-detected-connection-closing": "N: Déconnecté des serveurs de jeu",
+  "l-network-detected-connection": "N: Connection aux serveurs de jeu détectée: {0}",
+
+  "l-firewall-registered": "Pare-feu: enregistré",
+  "l-firewall-error": "Pare-feu: erreur d'enregistrement",
+
+  "l-analyze-error-length": "A: Erreur de longueur lors de l'analyse du message: {0}, {1}/{2}",
+  "l-analyze-error-general": "A: Erreur d'analyse du message",
+  "l-analyze-error": "A: Erreur de traitement du message",
+
+  "l-queue-started-general": "Q: Attente pour la mission [{0}]",
+  "l-queue-started-roulette": "Q: Attente pour la mission aléatoire [{0}]",
+  "l-queue-stopped": "Q: Attente interrompue",
+  "l-queue-entered": "Q: Entrée dans la zone instanciée",
+  "l-queue-matched": "Q: Attente terminée [{0}]",
+  "l-queue-updated": "Q: Mise à jour de la file d'attente [{0}, {1}, {2}/{3}, {4}/{5}, {6}/{7}]",
+
+  "l-fate-occured-info": "F: {0} ALEA en cours!",
+
+  "l-field-instance-entered": "I: Entrée dans la zone instanciée [{0}]",
+  "l-field-instance-left": "I: Sortie de la zone instanciée"
+}
