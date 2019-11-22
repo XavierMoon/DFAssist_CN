@@ -572,6 +572,7 @@ namespace App
                     mainForm.overlayForm.SetDutyAsMatched(instance);
                     
                 }
+                //TODO add new code
                  else if (opcode == 0x0304)
                                 {
                                     //var code = BitConverter.ToUInt16(data, 0); // 이제 던전 안알려줌. 대신 max 인원 알려줌.
@@ -609,7 +610,8 @@ namespace App
                                         }
                                         else
                                         {
-                                            mainForm.overlayForm.SetDutyStatus(tank, tankMax, dps, dpsMax, healer, healerMax);
+                                           //TODO mainForm.overlayForm.SetDutyStatus(tank, tankMax, dps, dpsMax, healer, healerMax);
+                                            mainForm.overlayForm.SetDutyStatus(instance, tank, dps, healer);
                                         }
                                     }
                                     else if (state == State.QUEUED)
@@ -620,26 +622,13 @@ namespace App
                                         }
                                         else
                                         {
-                                            mainForm.overlayForm.SetDutyStatus(tank, tankMax, dps, dpsMax, healer, healerMax);
+                                         mainForm.overlayForm.SetDutyStatus(instance, tank, dps, healer);
+                                          //TODO  mainForm.overlayForm.SetDutyStatus(tank, tankMax, dps, dpsMax, healer, healerMax);
                                         }
                                     }
 
-                                    // 직전 맴버 구성과 같은 상황이면 알림주지 않음
-                                    if (Settings.TelegramEnabled && Settings.TelegramQueueStatusEnabled)
-                                    {
-                                        if (rouletteCode == 0 && lastMember != member || !(tank == 0 && dps == 0 && healer == 0)) // 무작위 임무가 아님 (Not roulette duty)
-                                        {
-                                            WebApi.Request("telegram", "duty-status", $"{tank}/{tankMax}, {healer}/{healerMax}, {dps}/{dpsMax}");
-                                        }
-                                        else if (order != 0 && lastOrder != order) // 매칭 현황을 받아오는 중이면 제외 (except 'retrieving information')
-                                        {
-                                            var roulette = Data.GetRoulette(rouletteCode);
-                                            WebApi.Request("telegram", "duty-status-roulette", $"{roulette.Name} - #{order}");
-                                        }
-                                    }
 
                                     lastMember = member;
-                                    lastOrder = order;
                                     //}
                                     /*else if (status == 2)
                                     {
@@ -650,8 +639,8 @@ namespace App
                                     }*/
                                     Log.I("l-queue-updated", "", /*status*/1, tank, tankMax, healer, healerMax, dps, dpsMax);
                                 }
-                                else if (opcode == 0x00AE || opcode == 0x032F) // v5.1, v5.11 매칭 뒤 참가자 확인 현황 패킷
-                                {
+                 else if (opcode == 0x00AE || opcode == 0x032F) // v5.1, v5.11 매칭 뒤 참가자 확인 현황 패킷
+                  {
                                     var code = BitConverter.ToUInt16(data, 8);
                                     var tank = data[12];
                                     var healer = data[14];
@@ -664,7 +653,7 @@ namespace App
                                     lastCode = code;
                                     Log.I("l-queue-updated", instance.Name, 4, tank, instance.Tank, healer, instance.Healer, dps,
                                         instance.DPS);
-                                }
+                }
             }
             catch (Exception ex)
             {
